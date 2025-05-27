@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background: yellow;
+    height: 75px;
+}
+
+
+.navbar .logo{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.navbar .logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: black;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+
+.navbar ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: sans-serif;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: #ff6e00;
+    border-radius: 2px;
+
+}
+
+.container .center{
+    position: absolute;
+    top: 50%;
+    left: 50%; transform:translate(-50%,-50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.center h1{
+    color: black;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+
+.center h2{
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    width: 885px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.center .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 35px;
+}
+
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: .5s;
+}
+.buttons button:hover{
+    background: yellow;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+img{
+        display: block;
+        margin: auto;
+}
+
+p{
+    text-align: center;
+}
