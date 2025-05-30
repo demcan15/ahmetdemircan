@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim Bilgileri</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background:white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            background-color: white;
+            width: 100%;
+            max-width: 500px;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .card h1 {
+            font-size: 26px;
+            color: black;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .info {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .info-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .label {
+            font-weight: 600;
+            color: #475569;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        .value {
+            font-size: 16px;
+            color: #1f2937;
+        }
+
+        @media (max-width: 600px) {
+            .card {
+                margin: 20px;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Contact Information</h1>
+        <div class="info">
+            <div class="info-item">
+                <div class="label">Name/Surname</div>
+                <div class="value">Ahmet Seyid Bilal Demircan</div>
+            </div>
+            <div class="info-item">
+                <div class="label">School Number</div>
+                <div class="value">B2305.010146</div>
+            </div>
+            <div class="info-item">
+                <div class="label">E-posta</div>
+                <div class="value">aseyiddemircan@stu.aydin.edu.tr</div>
+            </div>
+            <div class="info-item">
+                <div class="label">Phone Number</div>
+                <div class="value">0530 373 14 54</div>
+            </div>
+            <div class="info-item">
+                <div class="label">Address</div>
+                <div class="value">Beşyol, İnönü Cd. No:38, 34295 Küçükçekmece/İstanbul</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
